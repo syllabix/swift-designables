@@ -115,6 +115,7 @@ class BorderedView: UIView {
     }
     
     override func layoutSubviews() {
+        super.layoutSubviews()
         drawTopBorder()
         drawRightBorder()
         drawBottomBorder()
